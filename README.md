@@ -1,42 +1,102 @@
-# Homework Guide
+# 01 HTML CSS Git: Code Refactor
 
-Each week, your instructor will add instructions for that week’s homework assignment to the class repo and announce that it’s ready. Your instructors and TAs will also provide a demonstration of the homework in the classroom.
+## Your Task
 
-## How to Work on Homework
+**Note**: Be sure to review the [Homework Guide](../04-Important/Homework-Guide/README.md) and the [Good README Guide](../04-Important/Good-README-Guide/README.md) before you start working on this assignment!
 
-Homework is designed to prepare you for two scenarios that you will encounter as a developer:
+This week is an odd-numbered week, so your homework is an on-the-job ticket, which means you'll begin with starter code that you need to modify. This week's homework involves a very important aspect of web development: **accessibility**. 
 
-* On-the-job tickets or feature requests
+One of the most common tasks for front-end and junior developers is to take existing code and refactor it (recall that to refactor code is to improve it without changing what it does) to meet a certain set of standards or implement a new technology. In this homework, a marketing agency has hired you to refactor an existing site to make it more accessible. 
 
-* Job-seeking coding assessments or take-home assignments
+Web accessibility is an increasingly important consideration for businesses. It ensures that people with disabilities can access a website using assistive technologies such as video captions, screen readers, and braille keyboards. Making a website accessible is also good for business for many reasons, one of them being that accessible sites are better positioned in search engines like Google. It also helps companies avoid litigation that can occur when people with disabilities cannot access their website.
 
-On-the-job ticket homework will provide you with starter code in a folder called `Develop`. You’ll modify or add to this code to complete the homework. Odd-numbered units follow this format.
+Even though accessibility is a broad topic that can include complex requirements, your tech lead has given you a small list of specific criteria to satisfy the project. These criteria are documented below in the Acceptance Criteria.
 
-Job-seeking coding assessments do not provide starter code. You’ll build these from scratch. Even-numbered units follow this format.
+**Important**: An important rule to follow when working with someone else's code is the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it.
 
-All of the homework assignments follow agile project management conventions, providing a user story, acceptance criteria, a mock-up demonstrating the application functionality, and review guidelines. 
+To impress clients, you should always go the extra mile and improve the codebase for long-term sustainability. For example, make sure that all links are functioning correctly. Also, rework the CSS to make it more efficient by consolidating CSS selectors and properties, organizing them to follow the semantic structure of the HTML elements, and including comments before each element or section of the page.
 
-### User Story
+Are you ready to jump in? Here are this week's homework requirements:
 
-Part of being a developer is putting yourself in the shoes of your audience and imagining their experience with the application you’re creating. 
+## User Story
 
-A user story, or persona, is a description of an application using natural, non-technical language. Written from the perspective of the application’s end user, they help developers organize their work by allowing them to understand an application’s context and who will be using it.
+```
+AS A marketing agency
+I WANT a codebase that follows accessibility standards
+SO THAT our own site is optimized for search engines
+```
 
-### Acceptance Criteria
+## Acceptance Criteria
 
-Acceptance criteria are the requirements that must be met to complete a user story. They define the boundaries of the user story and are used to confirm when a story is completed.
+```
+GIVEN a webpage meets accessibility standards
+WHEN I view the source code
+THEN I find semantic HTML elements
+WHEN I view the structure of the HTML elements
+THEN I find that the elements follow a logical structure independent of styling and positioning
+WHEN I view the image elements
+THEN I find accessible alt attributes
+WHEN I view the heading attributes
+THEN they fall in sequential order
+WHEN I view the title element
+THEN I find a concise, descriptive title
+```
 
-These criteria can be thought of as instructions for how you should complete a homework assignment. As you plan how to build the application, use them to structure your pages and pseudocode your logic. As you’re working, look back at the list of acceptance criteria to make sure you’ve met all of them. An application is complete only when it meets all of these criteria.
+## Mock-Up
 
-### Review
+The following image shows the web application's appearance and functionality:
 
-In the real world, when a developer finishes working on an issue, another developer reviews the code, providing feedback on errors and making sure that all of the acceptance criteria have been met. For the homework assignments, your TAs will serve as your reviewers.
+![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
 
-To submit your application for review, you are required to provide the following:
+
+## Grading Requirements
+
+This homework is graded based on the following criteria: 
+
+### Technical Acceptance Criteria: 40%
+
+* Satisfies all of the above acceptance criteria plus the following code improvements:
+
+  * Application's links all function correctly.
+
+  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
+
+  * Application's CSS file is properly commented.
+
+### Deployment: 32%
+
+* Application deployed at live URL.
+
+* Application loads with no errors.
+
+* Application GitHub URL submitted.
+
+* GitHub repository that contains application code.
+
+### Application Quality: 15%
+
+* Application resembles (at least 90%) screenshots provided in the homework instructions.
+
+### Repository Quality: 13%
+
+* Repository has a unique name.
+
+* Repository follows best practices for file structure and naming conventions.
+
+* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+
+* Repository contains multiple descriptive commit messages.
+
+* Repository contains quality README file with description, screenshot, and link to deployed application.
+
+## Review
+
+You are required to submit the following for review:
 
 * The URL of the deployed application.
-
+https://marioreid.github.io/horiseon-code-refactor/
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
----
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+https://github.com/MarioReid/horiseon-code-refactor
+- - -
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
