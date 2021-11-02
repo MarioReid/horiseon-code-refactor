@@ -1,4 +1,4 @@
-# Horizeon Code Refractor Project
+# Horiseon Code Refractor Project
 
 ## Description 
 This project was one to refractor code in html and css files. There were numerous edits and condensing of elements. HTML semantics were used to replace divs in order to give the page structure labels. This makes another coder looking at my work recognize each portion of the webpage.
@@ -11,7 +11,7 @@ Open webpage using browser of your choice.
 
 ## Usage 
 
-![alt "Webpage"](horizeonscreenshot.png)
+![alt "Webpage"](horiseonscreenshot.png)
 
  ## Credits
 
