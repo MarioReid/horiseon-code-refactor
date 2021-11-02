@@ -7,7 +7,7 @@ This project was one to refractor code in html and css files. There were numerou
 
 ## Installation
 
-Open webage using browser of your choice.
+Open webpage using browser of your choice.
 
 ## Usage 
 
